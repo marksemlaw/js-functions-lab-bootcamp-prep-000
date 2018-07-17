@@ -6,7 +6,8 @@ function happyHolidays (String) {
 
 function happyHolidaysTo (name) {
   console.log('Happy holidays, ')
-  return('${name}!')
+  colsole.log('${name}')
+  colsole.log('!')
 }
 
 function happyHolidayTo (holiday, name) {
