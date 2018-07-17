@@ -5,13 +5,13 @@ function happyHolidays (String) {
 }
 
 function happyHolidaysTo (String, name) {
-  console.Log('Happy holidays!, ${name}!')
+  console.log('Happy holidays, ${name}!')
 }
 
-function happyHolidayTo (String) {
-  return("Happy holidays!")
+function happyHolidayTo (holiday, name) {
+  console.log('Happy ${holiday}, ${name}!')
 }
 
-function holidayCountdown (String) {
-  return("Happy holidays!")
+function holidayCountdown (holiday, days) {
+  console.log("It's ${days} days until ${holiday}!")
 }
